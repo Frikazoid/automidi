@@ -1,0 +1,36 @@
+{
+  "name": "automidi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "express": "^4.13.4",
+    "leapjs": "^0.6.4",
+    "mongodb": "~2.0.33",
+    "monk": "~1.0.1",
+    "web-midi-api": "^1.4.4",
+    "winston": "2.1.1"
+  },
+  "description": "midi web app",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frikazoid/automidi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Frikazoid/automidi/issues"
+  },
+  "keywords": [
+    "web",
+    "audio",
+    "midi",
+    "leap"
+  ],
+  "author": "Fabio Bombini",
+  "license": "ISC",
+  "homepage": "https://github.com/Frikazoid/automidi"
+}
